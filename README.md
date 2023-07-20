@@ -1,6 +1,6 @@
 # Stochastic Subgradient Methods for Nonsmooth Nonconvex Optimization
 
-This repository presents an official implementation of our research paper, which introduces a generalized framework for SGD-variant methods and establishes their convergence properties. Our findings guarantee the convergence of SGD, heavy-ball SGD, Lion, and signSGD when training nonsmooth neural networks, such as those utilizing ReLU activation functions as their activation functions.
+This repository presents an official implementation of our [research paper](https://arxiv.org/abs/2307.10053), which introduces a generalized framework for SGD-variant methods and establishes their convergence properties. Our findings guarantee the convergence of SGD, heavy-ball SGD, Lion, and signSGD when training nonsmooth neural networks, such as those utilizing ReLU activation functions as their activation functions.
 
 The optimizers provided in this repository are designed to be user-friendly and can be easily invoked using the same approach as the SGD optimizers in PyTorch. 
 
